@@ -1,0 +1,22 @@
+.main-content {
+    width: 70%;
+    margin: auto;
+}
+
+.prompt-container {
+    margin: auto;
+    width: 70% !important;
+}
+
+.form-content{
+    margin-top: 20px;
+}
+
+.story-main input {
+    width: 70%;
+}
+
+.story-main textarea {
+    width: 70%;
+    height: 450px;
+}

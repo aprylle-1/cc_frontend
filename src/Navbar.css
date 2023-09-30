@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #12486B; /* Dark Blue */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.app-name {
+    color: #F5FCCD; /* Light Yellow */
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.right li {
+    margin-left: 20px;
+}
+
+.right a {
+    text-decoration: none;
+    color: #F5FCCD; /* Light Yellow */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.greeting {
+    color: #F5FCCD; /* Light Yellow */
+    font-weight: bold;
+    font-size: 18px;
+}

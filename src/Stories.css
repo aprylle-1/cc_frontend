@@ -1,0 +1,14 @@
+.stories{
+    text-align: center;
+    margin: auto;
+}
+.story-card{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px !important;
+}
+.check-user{
+    margin: auto;
+    margin-top: 20px !important;
+    width: 50% !important;
+}

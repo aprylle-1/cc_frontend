@@ -1,0 +1,23 @@
+.story-preview {
+    background-color: #F5FCCD; /* Light Yellow */
+    border: 1px solid #12486B; /* Dark Blue */
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: left;
+    width: 50%;
+}
+
+.story-preview h3 {
+    color: #12486B; /* Dark Blue */
+}
+
+.story-preview .content {
+    color: #333;
+}
+
+.story-preview .date {
+    color: #419197; /* Teal */
+    font-size: 14px;
+    margin-top: 10px;
+}

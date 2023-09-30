@@ -1,0 +1,46 @@
+.LoginForm{
+    background: linear-gradient(to right, #12486B, #419197, #78D6C6, #F5FCCD);
+    height: 100vh;
+    display: flex;
+}
+
+.LoginForm form {
+    padding: 50px 0px 50px 0px !important;
+    margin-top: 50px;
+    background-color: white;
+    margin: auto;
+    width: 40%;
+    box-shadow: 1px 1px 1px whitesmoke;
+    border-radius: 5px;
+}
+
+.LoginForm form input{
+    width: 80% !important;
+}
+
+.form-control{
+    margin: auto !important;
+}
+
+.form-label{
+    width: 80%;
+    text-align: left;
+}
+
+.login-btn {
+    margin-top: 10px;
+    width: 80%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #78D6C6; /* Mint Green */
+    color: #12486B; /* Dark Blue */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #419197; /* Darker Teal on Hover */
+}

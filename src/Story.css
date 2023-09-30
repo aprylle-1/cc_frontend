@@ -1,0 +1,13 @@
+.card {
+    text-align: left !important;
+    padding: 10px 10px 10px 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 15px !important;
+    background-color: #12486B important;
+}
+
+.card p {
+    font-size: 15px;
+}

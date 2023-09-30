@@ -1,0 +1,67 @@
+.landingpage-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #12486B; /* Dark Blue */
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    padding: 50px;
+    color: #F5FCCD; /* Light Yellow */
+    background-color: white;
+    border-radius: 20px;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #12486B; /* Light Yellow */
+}
+
+p {
+    font-size: 18px;
+    color: #419197; /* Teal */
+    margin-bottom: 20px;
+}
+
+.get-started-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #78D6C6; /* Mint Green */
+    color: #12486B; /* Dark Blue */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.get-started-button:hover {
+    background-color: #419197; /* Darker Teal on Hover */
+}
+
+.logo {
+    font-size: 80px;
+    color: #F5FCCD; /* Light Yellow */
+    background-color: #78D6C6; /* Mint Green */
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
