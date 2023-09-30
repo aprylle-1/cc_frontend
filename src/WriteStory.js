@@ -48,7 +48,7 @@ const WriteStory = ({save, currentUser, logout}) => {
         .then((result) => {
             console.log(result.data.choices[0].message.content);
             const text = result.data.choices[0].message.content
-            const titleRegex = /Title:\s([^"]+)/;
+            const titleRegex = /Title:\s([^\n]+)/;
             const titleMatch = text.match(titleRegex);
             const title = titleMatch[1].replace('"', '');
             setTitle(title)
