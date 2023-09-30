@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3001"
+const BASE_URL = "https://cc-backend-p23d.onrender.com"
 
 class ConnectToBackend {
     
