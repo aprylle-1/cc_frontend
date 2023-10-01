@@ -132,3 +132,7 @@ li:last-child {
 .following-users li:last-child {
     margin-bottom: 0;
 }
+
+.MainPage-message {
+    text-align: center;
+}

@@ -99,7 +99,7 @@ function MainPage ({currentUser, logout}) {
                                     </div>
                                 )
                             })}
-                            {feed.length === 0 && <p>Follow Writers</p>}
+                            {feed.length === 0 && <p className="MainPage-message">Follow Writers</p>}
                         </div>
                     </div>
     
