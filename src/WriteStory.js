@@ -50,9 +50,8 @@ const WriteStory = ({save, currentUser, logout}) => {
             const text = result.data.choices[0].message.content
             const titleRegex = /Title:\s([^\n]+)/;
             const titleMatch = text.match(titleRegex);
-            const title = titleMatch[1].replace('"', '');
+            const title = titleMatch[1].replace(/"/g, '');
             setTitle(title)
-            
             const storyRegex = /Story:\s+([\s\S]+)/;
             const storyMatch = text.match(storyRegex);
             const story = storyMatch[1]
